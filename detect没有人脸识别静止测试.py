@@ -1,11 +1,6 @@
 #-coding:utf-8-*-
 import cv2
 import time
-
-save_path = './face/'
-face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
-eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
-
 camera = cv2.VideoCapture(0) # 参数0表示第一个摄像头
 
 # 判断视频是否打开
